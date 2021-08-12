@@ -4,6 +4,7 @@ output=`python3 main.py`
 
 if [ "$output" == "Hello World" ]; then
    echo "OK"
+   echo "JUHU"
 else
    echo "NOK"
    echo "$output"
